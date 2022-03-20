@@ -1,0 +1,57 @@
+Base path: 'E:/unity/Editor/Data', plugins path 'E:/unity/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1410 outsize=290 ok=1
+Cmd: preprocess
+  insize=2042 outsize=2039 ok=1
+Cmd: preprocess
+  insize=2041 outsize=2038 ok=1
+Cmd: preprocess
+  insize=2268 outsize=754 ok=1
+Cmd: preprocess
+  insize=2268 outsize=754 ok=1
+Cmd: preprocess
+  insize=2269 outsize=756 ok=1
+Cmd: preprocess
+  insize=2266 outsize=756 ok=1
+Cmd: preprocess
+  insize=2266 outsize=756 ok=1
+Cmd: preprocess
+  insize=2270 outsize=756 ok=1
+Cmd: preprocess
+  insize=2414 outsize=825 ok=1
+Cmd: preprocess
+  insize=2414 outsize=825 ok=1
+Cmd: preprocess
+  insize=2415 outsize=828 ok=1
+Cmd: preprocess
+  insize=2417 outsize=827 ok=1
+Cmd: preprocess
+  insize=2403 outsize=813 ok=1
+Cmd: preprocess
+  insize=2403 outsize=813 ok=1
+Cmd: preprocess
+  insize=2329 outsize=740 ok=1
+Cmd: preprocess
+  insize=2403 outsize=813 ok=1
+Cmd: preprocess
+  insize=2522 outsize=864 ok=1
+Cmd: preprocess
+  insize=2522 outsize=863 ok=1
+Cmd: preprocess
+  insize=2606 outsize=862 ok=1
+Cmd: preprocess
+  insize=2596 outsize=864 ok=1
+Cmd: preprocess
+  insize=2596 outsize=864 ok=1
+Cmd: preprocess
+  insize=2597 outsize=864 ok=1
+Cmd: preprocess
+  insize=2622 outsize=864 ok=1
+Cmd: preprocess
+  insize=2622 outsize=864 ok=1
+Cmd: preprocess
+  insize=2622 outsize=863 ok=1
+Cmd: shutdown
+
+Quitting shader compiler process
