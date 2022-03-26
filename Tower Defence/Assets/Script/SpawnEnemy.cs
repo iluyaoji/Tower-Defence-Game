@@ -36,6 +36,8 @@ public class SpawnEnemy : MonoBehaviour
             enemy.transform.position = transform.position;
             enemy.SetActive(true);
             enemy.GetComponent<Enemy>().UI.SetActive(true);
+            enemy.GetComponent<Enemy>().rd.materials[0].SetFloat("_BurnAmount", 0);
+            enemy.GetComponent<Enemy>().BurnAmount = 0;
         }
         else
         {

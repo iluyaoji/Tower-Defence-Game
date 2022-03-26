@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b6942bcafb911044ba5a79ad6f69faad, type: 2}
+  - {fileID: 2100000, guid: 922debe886a4e924284bc4cd1da67e52, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -159,8 +159,9 @@ MonoBehaviour:
   HP: 10
   Speed: 8.7
   UI: {fileID: 4820805690026746320, guid: 2de5f32ab170e854dbba8a5d0729c7ef, type: 3}
-  Path: []
   mountPoint: {fileID: 6354906651631555381}
+  rd: {fileID: 5075785425070321269}
+  Path: []
 --- !u!65 &460270337535862338
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -61,8 +61,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 513db394b027da842835c1d6e3c1425d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectItemUI: {fileID: 6058448951682277254, guid: 513afe2a9dba30d44aa049efb3b39924,
-    type: 3}
   isConstructable: 1
   node:
     coordiates: {x: 0, y: 0}
@@ -178,7 +176,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7224367095643743277
 RectTransform:
   m_ObjectHideFlags: 0
@@ -216,7 +214,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 72369724e1e67844ea70ebe2c1ec5342, type: 2}
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

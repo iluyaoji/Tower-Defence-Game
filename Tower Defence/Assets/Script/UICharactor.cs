@@ -15,7 +15,7 @@ public class UICharactor : MonoBehaviour
         Transform UIRoot = canvas.transform.GetChild(UIRootIndex);
         transform.SetParent(UIRoot.transform);
     }
-    public void SetBloodPer(float per)
+    public void SetValue(float per)
     {
         GetComponent<Slider>().value = per;
     }

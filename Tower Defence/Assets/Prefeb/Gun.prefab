@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2500068452871983588}
   - component: {fileID: 5407652891910859370}
   - component: {fileID: 5245972458142896036}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4764,7 +4764,7 @@ GameObject:
   - component: {fileID: 7815136708499277450}
   - component: {fileID: 7815136708499277448}
   - component: {fileID: 7815136708499277451}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Particle System
   m_TagString: Fire
   m_Icon: {fileID: 0}
@@ -9520,7 +9520,7 @@ GameObject:
   - component: {fileID: 7815136708637844643}
   - component: {fileID: 7815136708637844642}
   - component: {fileID: 7815136708637844637}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9611,7 +9611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7815136709004019963}
   - component: {fileID: 7815136709117144605}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9648,9 +9648,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Lv: 1
   ATK: 1
-  ClickUI: {fileID: 0}
   Head: {fileID: 7815136710049536416}
   FireField: 3
+  buildDelay: 1
+  mountPoint: {fileID: 7815136710049536416}
+  UIDegreeOfCompletion: {fileID: 4820805690026746320, guid: 2de5f32ab170e854dbba8a5d0729c7ef,
+    type: 3}
   particleSystems:
   - {fileID: 7815136708499277448}
   emissionRate: 2
@@ -9666,7 +9669,7 @@ GameObject:
   - component: {fileID: 7815136710049536423}
   - component: {fileID: 7815136710049536422}
   - component: {fileID: 7815136710049536417}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}

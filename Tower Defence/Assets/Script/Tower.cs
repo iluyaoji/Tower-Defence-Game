@@ -6,18 +6,50 @@ public class Tower : MonoBehaviour
 {
     public int Lv = 1;
     public float ATK = 1;
-    [SerializeField] GameObject ClickUI;
+    //[SerializeField] GameObject ClickUI;
     public Transform Head;
     public float FireField = 1;
+    public float buildDelay = 1;
+
+    public Transform mountPoint;
+    [SerializeField] GameObject UIDegreeOfCompletion;
     public ParticleSystem[] particleSystems;
     public float emissionRate;
 
     private Enemy[] Target;
+    bool complete = false;
+    float degreeOfCompletion = 0;
+    
+    private void Start()
+    {
+        UIDegreeOfCompletion = GameObject.Instantiate(UIDegreeOfCompletion);
+        
+    }
+    void FixedUpdate()
+    {
+        if (!complete)
+            UIDegreeOfCompletion.GetComponent<UICharactor>().SetValue(Building());
+    }
 
     void Update()
     {
-        Aim();
-        
+        if (complete)
+            Aim();
+    }
+    public float Building()
+    {
+        degreeOfCompletion += Time.deltaTime;
+        float value = degreeOfCompletion / buildDelay;
+        Vector3 worldPos = this.mountPoint.transform.position;
+        Vector3 screenPos = FindObjectOfType<Camera>().WorldToScreenPoint(worldPos);
+        UIDegreeOfCompletion.GetComponent<UICharactor>().ShowAt(screenPos);
+        if (value >= 1)
+        {
+            complete = true;
+            //TODO: Optimized treatment recovery
+            Destroy(UIDegreeOfCompletion);
+        }
+        return value;
     }
 
     void Aim()
@@ -57,8 +89,4 @@ public class Tower : MonoBehaviour
         
     }
 
-    private void OnMouseOver()
-    {
-        
-    }
 }
