@@ -260,8 +260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84a8336008cf25344a8c32f5c3248058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  UIRootIndex: 1
+  isHarm: 0
+  lifeTime: 0
 --- !u!114 &9080793791692793397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,10 +274,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62cd4ef3403c129489650b29aca75fb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Towers:
-  - {fileID: 7815136709117144605, guid: 3fa6fdec2d534164698a19e7bc828723, type: 3}
-  - {fileID: 7768165048146868741, guid: 6dd31a0cfc4271342bf33f786c2e7a2c, type: 3}
-  trans: {fileID: 0}
+  VFX_Select: {fileID: 0}
+  ColorYes: {r: 1, g: 1, b: 1, a: 1}
+  ColorNo: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &6468021694563156967
 GameObject:
   m_ObjectHideFlags: 0

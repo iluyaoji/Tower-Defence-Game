@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7163003110976838485}
   m_Layer: 0
   m_Name: (-99.-99)
-  m_TagString: Untagged
+  m_TagString: Path
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label: {fileID: 7224367095643743280}
-  labelColor: {r: 1, g: 1, b: 1, a: 0.33333334}
+  labelColor: {r: 0.6037736, g: 0.24777503, b: 0.24777503, a: 0.7882353}
 --- !u!114 &2871643033666923818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,7 +65,6 @@ MonoBehaviour:
   node:
     coordiates: {x: 0, y: 0}
     isWalkable: 0
-    isPath: 0
 --- !u!65 &7163003110976838485
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -176,7 +175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7224367095643743277
 RectTransform:
   m_ObjectHideFlags: 0
@@ -271,8 +270,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 1442840575
-  m_fontColor: {r: 1, g: 1, b: 1, a: 0.33333334}
+    rgba: 3376365466
+  m_fontColor: {r: 0.6037736, g: 0.24777503, b: 0.24777503, a: 0.7882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

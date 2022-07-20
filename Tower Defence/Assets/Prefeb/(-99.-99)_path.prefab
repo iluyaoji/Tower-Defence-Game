@@ -9,16 +9,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2871643033666923818, guid: 5dc93c68d6733c345bf6b4b67ffee099,
         type: 3}
-      propertyPath: isbuild
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2871643033666923818, guid: 5dc93c68d6733c345bf6b4b67ffee099,
-        type: 3}
-      propertyPath: node.isPath
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2871643033666923818, guid: 5dc93c68d6733c345bf6b4b67ffee099,
-        type: 3}
       propertyPath: isConstructable
       value: 0
       objectReference: {fileID: 0}
@@ -87,46 +77,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: (-99.-99)_path
       objectReference: {fileID: 0}
-    - target: {fileID: 7224367095412168178, guid: 5dc93c68d6733c345bf6b4b67ffee099,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7224367095412168178, guid: 5dc93c68d6733c345bf6b4b67ffee099,
-        type: 3}
-      propertyPath: m_TagString
-      value: Path
-      objectReference: {fileID: 0}
     - target: {fileID: 7224367095492513286, guid: 5dc93c68d6733c345bf6b4b67ffee099,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 39540f16274b2be42b0a54deb71c9b40, type: 2}
-    - target: {fileID: 7224367095643743280, guid: 5dc93c68d6733c345bf6b4b67ffee099,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
-        type: 2}
-    - target: {fileID: 8249078501805253961, guid: 5dc93c68d6733c345bf6b4b67ffee099,
-        type: 3}
-      propertyPath: labelColor.a
-      value: 0.7882353
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249078501805253961, guid: 5dc93c68d6733c345bf6b4b67ffee099,
-        type: 3}
-      propertyPath: labelColor.b
-      value: 0.24777503
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249078501805253961, guid: 5dc93c68d6733c345bf6b4b67ffee099,
-        type: 3}
-      propertyPath: labelColor.g
-      value: 0.24777503
-      objectReference: {fileID: 0}
-    - target: {fileID: 8249078501805253961, guid: 5dc93c68d6733c345bf6b4b67ffee099,
-        type: 3}
-      propertyPath: labelColor.r
-      value: 0.6037736
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dc93c68d6733c345bf6b4b67ffee099, type: 3}

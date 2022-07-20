@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6981670468061334957}
   - component: {fileID: 6919439099353803010}
   - component: {fileID: 5075785425070321269}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6354906651631555381}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: mountPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 88287564338475109}
   - component: {fileID: -5947422220251525598}
   - component: {fileID: 460270337535862338}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube_Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -155,13 +155,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c11b8e156071614cbe736ff62f1ceb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
-  HP: 10
+  isDebug: 0
+  price: 10
+  type: 1
+  HP: 100
   Speed: 8.7
-  UI: {fileID: 4820805690026746320, guid: 2de5f32ab170e854dbba8a5d0729c7ef, type: 3}
   mountPoint: {fileID: 6354906651631555381}
-  rd: {fileID: 5075785425070321269}
-  Path: []
+  currentPathWay: 1
+  spawnEnemy: {fileID: 0}
 --- !u!65 &460270337535862338
 BoxCollider:
   m_ObjectHideFlags: 0
